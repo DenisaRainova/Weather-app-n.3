@@ -103,7 +103,7 @@ li {
 
 
 .weather-app-wrapper {
-  max-width: 500px;
+  max-width: 510px;
   margin: 0 auto;
   text-align: center;
   border: 1px solid hsl(0, 0%, 30%);
@@ -120,7 +120,7 @@ li {
   border-radius: 8px;
   position: relative;
   background-size: cover;
-  background: url('/img/atmosphere.jpg') no-repeat scroll left ;
+  background: url('/img/national.jpg') no-repeat;
   border-radius: 8px;    
 }
   
