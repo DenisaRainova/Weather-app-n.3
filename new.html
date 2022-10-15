@@ -64,16 +64,20 @@
 
             <div class="row">
                 
-                    <div class="d-flex weather-temperature">
-                        <img src="" id="icon" alt="" />
-                        <div class="col-3">
+                    <div class="d-flex weather-temperature height d-flex justify-content-center align-items-center">
+                        <div class="col">
+                            <img src="" id="icon" alt="" />
+                        </div>
+                        
+                        <div class="col">
                         <strong id="temperature"></strong
                         ><span class="units"> <a href="#" id="c-link" class="active">°C</a> | <a href="#" id="f-link">°F</a></span>
                         </div>
-                        <div class="col-6">
-                            <ul>
+                        <div class="col">
+                            <ul class="advance-info">
                                 <li>Humidity: <span id="humidity"></span>%</li>
                                 <li>Wind: <span id="wind"></span>km/h</li>
+                                <li>Feels like: <span id="feels"></span>°C</li>
                             </ul>
                         </div>
                             
