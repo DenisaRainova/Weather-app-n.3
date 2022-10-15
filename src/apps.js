@@ -58,7 +58,24 @@ function handleSubmit(event){
     search(cityInputElement.value);
 }
 
-search("New York");
+function getCurrentLocation(event){
+    event.preventDefault();
+    navigator.geolocation.getCurrentPosition(searchLocation);
+}
+
+function searchLocation(position){
+    let apiKey = "b884720d8f959cc5aa66ad10c2546f56";
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${
+        position.coords.latitude
+      }&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
+      axios.get(apiUrl).then(displayTemperature);
+}
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
+
+let currentLocationButton = document.querySelector("#current-location-button");
+currentLocationButton.addEventListener("click", getCurrentLocation);
+
+search("New York");
+
