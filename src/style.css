@@ -48,10 +48,10 @@ a {
 */
 
 .glow {
-  font-size: 80px;
+  font-size: 70px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 0 10px hsl(0, 0%, 30%), 0 0 20px hsl(0, 0%, 15%), 0 0 30px rgba(12,25,180,1), 0 0 40px rgba(12,25,180,1), 0 0 50px rgba(12,25,180,1), 0 0 60px rgba(12,25,180,1), 0 0 70px rgba(12,25,180,1);
+  text-shadow: 0 0 10px hsl(0, 0%, 30%), 0 0 20px hsl(0, 0%, 15%), 0 0 30px rgba(12,25,180,1), 0 0 40px rgba(12,25,180,1), 0 0 50px rgba(12,25,180,1);
 }
 
 h2 {
