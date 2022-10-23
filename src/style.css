@@ -52,12 +52,13 @@ a {
   color: #fff;
   text-align: center;
   text-shadow: 0 0 10px hsl(0, 0%, 30%), 0 0 20px hsl(0, 0%, 15%), 0 0 30px rgba(12,25,180,1), 0 0 40px rgba(12,25,180,1), 0 0 50px rgba(12,25,180,1);
+  padding: 13px;
 }
 
 h2 {
   color: hsl(0, 0%, 30%);
   font-size: 20px;
-  padding: 5px;
+  padding: 10px;
 }
 
 h3 {
